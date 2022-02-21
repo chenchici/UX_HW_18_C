@@ -116,12 +116,11 @@ body {
   text-align: center;
   font-size: 36px;
   padding-top: 10px;
-  box-shadow: 5px 5px 5px gray;
+  
 }
-.button :hover {
-
+.button:hover {
+  box-shadow: 5px 10px 18px white;
 }
-
 .cards {
   margin: 0 auto;
   max-width: 1000px;
@@ -131,11 +130,11 @@ body {
   
 }
 .card {
-  box-shadow: 0 0 5px white;
+  box-shadow: 0 0 10px white;
 }
 .card-image {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   display: block;
   object-fit: contain;
 }
